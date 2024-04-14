@@ -1,6 +1,9 @@
 /* GOOGLE FONT */
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
+/* h3 FONT  */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
 :root {
     --primary-0: #231f20;
     --primary-1: #bb4430;
@@ -76,8 +79,161 @@ header {
     background-image: url('./images/1.jpg');
     display: flex;
     height: 50vh;
+    width: 100vw;
     background-size: cover;
     background-position: center;
     align-items: center;
     position: sticky;
+    z-index: -1;
+}
+
+.content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    font-family: "Teko", sans-serif;
+}
+
+
+
+/* BACKGROUND IMAGE */
+
+#background_img h3 {
+    top: -80px;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+#background_img p {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: relative;
+    top: -30px;
+}
+
+
+
+
+/* INFORMATION BAR */
+
+#information_bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ce2026;
+    height: 100px;
+}
+
+#information_bar .mechanics {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding-right: 100px;
+    position: relative;
+    left: 150px;
+    border-right: 2px solid #fff;
+}
+
+#information_bar .mechanics h4 {
+    color: #fff;
+}
+
+#information_bar .car_accessories {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding-right: 100px;
+    position: relative;
+    left: 100px;
+    border-right: 2px solid #fff;
+}
+
+#information_bar .car_accessories h4 {
+    color: #fff;
+}
+
+#information_bar .brealdown_services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#information_bar .brealdown_services h4 {
+    color: #fff;
+}
+
+
+
+/* COME AND VISIT US */
+#visit_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7ebdc2;
+    /* color: #fff; */
+    padding: 15px;
+    height: 200px;
+}
+
+#visit_us .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: "Teko", sans-serif;
+    left: -100px;
+    position: relative;
+}
+
+#visit_us .content h5 {
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+    color: #000;
+}
+
+#visit_us .content p {
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+}
+
+#visit_us .content button {
+    color: #fff;
+    background-color: #ce2026;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: .3px;
+    position: relative;
+    top: 30px;
+    border-radius: 5px;
+}
+
+#visit_us .content button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #d30337, -2px -2px 2px 2px #d30337 ;
+}
+
+#visit_us .image {
+    background-image: url(./images/2.jpg);
+    background-color: #f54e77;
+    height: 20vh;
+    width: 20vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    right: 20%;
 }
