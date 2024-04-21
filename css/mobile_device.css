@@ -1,0 +1,430 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+/* h3 FONT  */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 480px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 480px;
+  }
+
+  header #logo .dr_repair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #891519;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+  }
+
+  header #logo .autocenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    position: relative;
+    top: -20px
+  }
+
+
+  /* NAVBAR SECTION */
+  #nav_bar {
+    display: flex;
+    min-width: 480px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #nav_bar a {
+    position: relative;
+    top: -10px;
+    color: #891519;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 10px;
+    letter-spacing: .4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 4px solid #d9d6d645;
+  }
+
+  #nav_bar a:hover {
+    border-bottom: 4px solid #f54e77;
+    cursor: pointer;
+    color: #bb4430;
+  }
+
+
+  /* BACKGROUND IMAGE */
+  #background_img {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .fixed_img {
+    opacity: 0.7;
+    mix-blend-mode: color-dodge;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .content .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    font-family: "Teko", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    min-width: 480px;
+  }
+
+  .content p {
+    display: block;
+    margin: 0px 5px;
+    text-align: center;
+    color: #fff;
+    font-family: "Teko", sans-serif;
+    position: relative;
+    top: -30px;
+    min-width: 480px;
+    /* background: linear-gradient(to right, #7700ff, #ff0000 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
+
+
+  /* INFORMATION BAR */
+  #information_bar {
+    display: flex;
+    background-color: #ce2026;
+    height: auto;
+    width: 100vw;
+    min-width: 480px;
+    padding-left: 30px;
+  }
+
+  /* #information_bar .mechanics {} */
+
+  #information_bar .mechanics h4 {
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: .6px;
+    padding: 0px 20px;
+  }
+
+  #information_bar .mechanics p {
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: .6px;
+    padding: 0px 20px;
+  }
+
+  #information_bar .car_accessories {
+    border-left: 2px solid #fff;
+  }
+
+  #information_bar .car_accessories h4 {
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: .6px;
+    padding: 0px 20px;
+  }
+
+  #information_bar .car_accessories p {
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: .6px;
+    padding: 0px 20px;
+  }
+
+  #information_bar .brealdown_services {
+    border-left: 2px solid #fff;
+  }
+
+  #information_bar .brealdown_services h4 {
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: .6px;
+    padding: 0px 20px;
+  }
+
+  #information_bar .brealdown_services p {
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: .6px;
+    padding: 0px 20px;
+  }
+
+
+  /* COME AND VISIT US */
+  #visit_us {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #7ebdc2;
+    padding: 15px;
+    height: 200px;
+    min-width: 480px;
+  }
+
+  #visit_us .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: "Teko", sans-serif;
+  }
+
+  #visit_us .content h5 {
+    position: relative;
+    bottom: 10px;
+    font-size: 30px;
+    color: #000;
+    margin: 0% 0% 10% 0%;
+  }
+
+  #visit_us .content p {
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+    color: #000;
+    margin: 0% 0% 5% 0%;
+  }
+}
+
+#visit_us .content button {
+  color: #fff;
+  background-color: #ce2026;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: .3px;
+  border-radius: 5px;
+}
+
+#visit_us .content button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 2px 2px #d30337, -1px -1px 2px 2px #d30337;
+}
+
+
+/* OFFERING */
+#offering {
+  background-color: #dadddd;
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  min-width: 480px;
+  height: 320px;
+}
+
+#offering h5 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  letter-spacing: .3px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#offering .para {
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  letter-spacing: .3px;
+  font-weight: 500;
+  padding: 0px 50px;
+}
+
+#usp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  min-width: 480px;
+  width: 100%;
+
+}
+
+#usp span {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  font-size: 30px;
+  color: #ce2026;
+  font-weight: bolder;
+}
+
+#usp h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: "Teko", sans-serif;
+  font-size: 15px;
+  top: 30px;
+}
+
+#usp p {
+  padding: 0px 40px 0px 40px;
+  font-family: "Teko", sans-serif;
+  font-size: 10px;
+  position: relative;
+  top: 20px;
+}
+
+
+#brands {
+  height: 670px;
+  width: 510px;
+  background-color: aliceblue;
+  min-width: 480px;
+}
+
+#brands h5 {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  letter-spacing: .3px;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+
+#brands .images img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: relative;
+  top: 40px;
+  margin: auto auto;
+  padding: 10px 0px;
+}
+
+
+/* FOOTER SECTION */
+#footer_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100vw;
+  min-width: 510px;
+  background-color: #2f2e2e;
+  padding: 20px 0px;
+}
+
+#footer_content .experience h4 {
+  font-family: "Teko", sans-serif;
+  font-size: 15px;
+  letter-spacing: .3px;
+  text-align: center;
+}
+
+#footer_content .experience p {
+  font-family: "Teko", sans-serif;
+  font-size: 15px;
+  letter-spacing: .3px;
+  margin-bottom: 10px;
+}
+
+#footer_content .services h4 {
+  font-family: "Teko", sans-serif;
+  font-size: 15px;
+  letter-spacing: .3px;
+  text-align: center;
+}
+
+#footer_content .services p {
+  font-family: "Teko", sans-serif;
+  font-size: 15px;
+  letter-spacing: .3px;
+  margin-bottom: 10px;
+}
+
+#footer_content .visit_us h4 {
+  font-family: "Teko", sans-serif;
+  font-size: 15px;
+  letter-spacing: .3px;
+  text-align: center;
+}
+
+#footer_content .visit_us p {
+  font-family: "Teko", sans-serif;
+  font-size: 15px;
+  letter-spacing: .3px;
+  margin-bottom: 10px;
+}
+
+
+#footer_copyright {
+  background-color: #000000;
+  height: auto;
+  width: 100vw;
+  min-width: 510px;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+  font-size: 15px;
+  letter-spacing: .3px;
+  border-bottom: 2px solid #000000;
+}
+
+#footer_copyright span {
+  font-size: 20px;
+  color: #ce2026;
+
+}
+
+#footer_copyright span:hover {
+  cursor: pointer;
+  border-bottom: 5px solid #ce2026;
+  text-shadow: 0.3px 0.3px #ce2026;
+}

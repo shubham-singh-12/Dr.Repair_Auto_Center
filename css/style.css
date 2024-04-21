@@ -335,9 +335,80 @@ header {
 
 .images .image {
     position: relative;
-    top:20px;
+    top: 20px;
     display: inline-block;
     padding-left: 50px;
     padding-right: 50px;
     margin: 3%;
+}
+
+
+/* FOOTER */
+#footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+    background-color: #2f2e2e;
+}
+
+#footer_content .experience 
+#footer_content .experience h4 {
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    letter-spacing: .3px;
+}
+#footer_content .experience p{
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    letter-spacing: .3px;
+}
+
+#footer_content .services h4 {
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    letter-spacing: .3px;
+}
+#footer_content .services p{
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    letter-spacing: .3px;
+}
+
+
+#footer_content .visit_us h4 {
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    letter-spacing: .3px;
+}
+#footer_content .visit_us p{
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    letter-spacing: .3px;
+}
+
+
+#footer_copyright {
+    background-color: #000000;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    font-size: 15px;
+    letter-spacing: .3px;
+    border-bottom: 2px solid #000000;
+}
+
+#footer_copyright span {
+    font-size: 20px;
+    color: #ce2026;
+
+}
+
+#footer_copyright span:hover {
+    cursor: pointer;
+    border-bottom: 5px solid #ce2026;
+    text-shadow: 0.3px 0.3px #ce2026;
 }
